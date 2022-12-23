@@ -1,7 +1,6 @@
 import { useQuery } from "urql";
 import { GetUsersDocument } from "./graphql/generated";
 
-import { User } from "./types";
 import UserDisplay from "./components/UserDisplay";
 
 function App() {
